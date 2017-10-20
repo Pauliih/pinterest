@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none; /*saca las viñetas de la lista */
+	padding-bottom: 8px;
+}
+
+header{
+	position: fixed;
+	background-color: white;
+	top:0;
+	left: 0;
+	width: 100%;
+	/*padding: 15px;*/
+}
+
+.separador1{
+	width: 100%;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;/*sacar la linea del link*/
+	display:block; /*ocupa el espacio de su etiqueta padre*/
+}
+input{
+	width: 80%;
+	border: none;
+    line-height: 20px;
+    font-size: 18px;
+    outline: 0;
+    background-color: transparent;
+}
+
+.fa-pinterest-square{
+	color: #BD081C;
+	font-size: 210%;
+}
+
+.input-caja{
+	background-color: #EFEFEF;
+    border-radius: 5px;
+    margin: 0 16px;
+    width: 70%;
+    padding: 10px;
+    padding-left: 5%;
+}
+
+.fa-times{
+	float:right;
+}
+
+.h4_busca{ /*All pines*/
+	float: right;
+	margin: 0;
+}
+
+.fa-chevron-down{
+	float: right;
+}
+
+.fa-user, .fa-bars, .fa-commenting-o{
+	font-size: 150%;
+	margin-right: 25px;
+	color: #B5B5B5;
+}
+
+.menu{
+	margin-left: 5%;
+	padding: 0;
+}
+
+.menu2{
+	padding:10px 50px;
+    width: 100%;
+    margin: 0;
+}
+
+.btns{
+	float:left;
+	border: 2px solid black;
+	border-radius: 6px;
+	background-color: black;
+    /*background-size: cover;
+    background-position: center;*/
+    margin: 0 5px;
+    padding: 0 8px;
+    color:white;
+}
