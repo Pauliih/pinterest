@@ -81,7 +81,7 @@ input{
 	margin-left: 5%;
 	padding: 0;
 	-webkit-box-pack: justify; 
-    /*-ms-flex-pack: justify;*/
+    -ms-flex-pack: justify;
     justify-content: space-between; /*pone el contenido Justificado*/
 }
 
@@ -145,19 +145,6 @@ p{
 	background-image:url(img/9.jpg)
 }
 
-.imagenes{
-	padding: 0 80px;
-    margin-top: 150px;
-    -moz-column-width: 220px;
-    -webkit-column-width: 220px;
-    column-width: 220px;
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    column-count: 4;
-    -moz-column-gap: 20px;
-    -webkit-column-gap: 20px;
-    column-gap: 20px;
-}
 .logo_usuario{
 	width: 30px;
     height: 30px;
@@ -200,13 +187,14 @@ p{
 	padding: 10px;
 }
 
-
 .post1 img{
 	vertical-align: middle;
 	width: 100%;
+	border-radius: 6px;
 }
-.post1{
 
+.imagenes .post1{
+	display: inline-block;
 }
 
 #imagenes{
@@ -215,4 +203,6 @@ p{
 	margin-left: auto;
 	padding-left: 80px;
 	padding-right: 80px;
+	/*position: relative;
+	top: 70px;*/
 }
